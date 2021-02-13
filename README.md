@@ -19,5 +19,5 @@ the `useAPI` hook uses `cachedGet` function for get requests which provides two 
 ## Example
 
 - `HelloWorldComponent` is a use case example, which show cases how `VueAxiosComponent` can be used
-- `VantikAxiosComponent` is an example, which show cases how `AxiosComponent` can be used
+- `VueAxiosComponent` is an example, which show cases how `AxiosComponent` can be used
 - `AxiosComponent` is an example which show cases how `useAPI` hook can be used
