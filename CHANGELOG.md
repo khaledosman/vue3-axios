@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/khaledosman/vue3-axios/compare/v1.1.2...v1.1.3) (2021-02-14)
+
+
+### Reverts
+
+* Revert "fix: dont publish sourcemaps" ([e336d7c](https://github.com/khaledosman/vue3-axios/commit/e336d7cc089f6371690305c4cd045d02a68ffa77))
+
 ## [1.1.2](https://github.com/khaledosman/vue3-axios/compare/v1.1.1...v1.1.2) (2021-02-14)
 
 
