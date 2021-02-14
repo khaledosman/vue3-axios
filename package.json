@@ -1,6 +1,6 @@
 {
   "name": "@khaledosman/vue3-axios",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/vue3-axios.common.js",
   "scripts": {
     "start": "vue-cli-service serve --open",
