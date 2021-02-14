@@ -1,14 +1,21 @@
 {
-  "name": "vue3-axios",
+  "name": "@khaledosman/vue3-axios",
   "version": "0.1.0",
-  "main": "./src/components/index.ts",
+  "main": "dist/vue3-axios.common.js",
   "scripts": {
     "start": "vue-cli-service serve --open",
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build --target lib --name vue3-axios ./src/components/index.ts",
-    "build:wc": "vue-cli-service build --target wc-async --name vue3-axios ./src/components/index.ts",
+    "build": "vue-cli-service build --target lib --name vue3-axios ./src/index.ts",
+    "build:wc": "vue-cli-service build --target wc-async --name vue3-axios ./src/index.ts",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "peerDependencies": {
     "vue": "^3.0.5"
   },
