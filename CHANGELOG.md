@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/khaledosman/vue3-axios/compare/v1.1.0...v1.1.1) (2021-02-14)
+
+
+### Bug Fixes
+
+* fix entry file ([552d0ad](https://github.com/khaledosman/vue3-axios/commit/552d0ad304236af36a5e8ff94819abb5e570237d))
+
 # [1.1.0](https://github.com/khaledosman/vue3-axios/compare/v1.0.0...v1.1.0) (2021-02-14)
 
 
