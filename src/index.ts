@@ -1,8 +1,8 @@
 import VueAxiosComponent from './components/VueAxiosComponent.vue'
 import AxiosComponent from './components/AxiosComponent.vue'
-import { cachedGet } from './helpers/cached-get.ts'
-import { useApi } from './hooks/api.ts'
-import { useVueAxiosControls } from './hooks/vue-axios-controls.ts'
+import { cachedGet } from './helpers/cached-get'
+import { useApi } from './hooks/api'
+import { useVueAxiosControls } from './hooks/vue-axios-controls'
 
 export {
   VueAxiosComponent,
