@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/khaledosman/vue3-axios/compare/v1.1.1...v1.1.2) (2021-02-14)
+
+
+### Bug Fixes
+
+* dont publish sourcemaps ([e245154](https://github.com/khaledosman/vue3-axios/commit/e2451544f34fbeeedb2a067b11314faafa70d2b7))
+
 ## [1.1.1](https://github.com/khaledosman/vue3-axios/compare/v1.1.0...v1.1.1) (2021-02-14)
 
 
