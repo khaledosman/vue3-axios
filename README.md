@@ -1,4 +1,13 @@
 # vue3-axios
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![npm version](https://badge.fury.io/js/@khaledosman/vue3-axios.svg)](https://badge.fury.io/js/@khaledosman/vue3-axios)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![dependencies Status](https://david-dm.org/khaledosman/@khaledosman/vue3-axios/status.svg)](https://david-dm.org/khaledosman/@khaledosman/vue3-axios)
+[![devDependencies Status](https://david-dm.org/khaledosman/@khaledosman/vue3-axios/dev-status.svg)](https://david-dm.org/khaledosman/@khaledosman/vue3-axios?type=dev)
+[![npm](https://img.shields.io/npm/dy/@khaledosman/vue3-axios.svg)]()
 
 Composition API & Vue component helpers for making API requests and rendering the results in vue 3
 
