@@ -1,5 +1,13 @@
-export { default as VueAxiosComponent } from './components/VueAxiosComponent.vue'
-export { default as AxiosComponent } from './components/AxiosComponent.vue'
-export * from './helpers/cached-get'
-export * from './hooks/api'
-export * from './hooks/vue-axios-controls'
+import VueAxiosComponent from './components/VueAxiosComponent.vue'
+import AxiosComponent from './components/AxiosComponent.vue'
+import { cachedGet } from './helpers/cached-get.ts'
+import { useApi } from './hooks/api.ts'
+import { useVueAxiosControls } from './hooks/vue-axios-controls.ts'
+
+export {
+  VueAxiosComponent,
+  AxiosComponent,
+  cachedGet,
+  useApi,
+  useVueAxiosControls
+}
