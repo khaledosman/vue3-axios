@@ -2,13 +2,15 @@
   "name": "@khaledosman/vue3-axios",
   "version": "1.0.0",
   "main": "dist/vue3-axios.common.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "start": "vue-cli-service serve --open",
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build --target lib --name vue3-axios ./src/index.ts",
+    "build": "vue-cli-service build --modern",
+    "build:lib": "vue-cli-service build --target lib --name vue3-axios ./src/index.ts && tsc --emitDeclarationOnly",
     "build:wc": "vue-cli-service build --target wc-async --name vue3-axios ./src/index.ts",
     "lint": "vue-cli-service lint",
-    "release": "yarn build && npx semantic-release",
+    "release": "yarn build:lib && npx semantic-release",
     "commit": "npx git-cz"
   },
   "config": {
