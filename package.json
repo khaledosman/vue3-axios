@@ -7,11 +7,12 @@
     "start": "vue-cli-service serve --open",
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --modern",
-    "build:lib": "vue-cli-service build --target lib --name vue3-axios ./src/index.ts && tsc --emitDeclarationOnly",
+    "build:lib": "vue-cli-service build --target lib --name vue3-axios ./src/index.ts && yarn generate-typings",
     "build:wc": "vue-cli-service build --target wc-async --name vue3-axios ./src/index.ts",
     "lint": "vue-cli-service lint",
     "release": "yarn build:lib && npx semantic-release",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "generate-typings": "tsc --emitDeclarationOnly"
   },
   "config": {
     "commitizen": {
